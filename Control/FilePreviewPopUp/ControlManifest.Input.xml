@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="CCWIS" constructor="FilePreviewPopUp" version="0.0.1" display-name-key="CCWIS Gold Preview" description-key="Final Preview Control" control-type="standard">
+    <property name="dummyText" display-name-key="Dummy Field" description-key="Bind to text field" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="targetFileField" display-name-key="Target File Col Name" description-key="Logical Name (e.g. cw_attach)" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/FilePreviewPopUp.css" order="1" />
+    </resources>
+  </control>
+</manifest>
