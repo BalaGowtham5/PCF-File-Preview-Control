@@ -1,4 +1,4 @@
-# 📄 CCWIS File Preview PCF Control
+# 📄File Preview PCF Control
 
 A high-fidelity **Power Apps Component Framework (PCF)** control that allows users to **preview attachments directly inside Dynamics 365 / Power Apps** without downloading them.
 
